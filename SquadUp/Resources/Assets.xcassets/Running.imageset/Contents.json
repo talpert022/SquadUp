@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "healthy-young-woman-on-morning-run-royalty-free-image-856985422-1533935456.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

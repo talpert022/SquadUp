@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThirdGameViewController" customModule="SquadUp_v4" customModuleProvider="target">
+            <connections>
+                <outlet property="createGame" destination="guA-mB-Med" id="H0a-wZ-HOk"/>
+                <outlet property="instructionLabel" destination="g53-WU-fIc" id="d2V-Ku-ois"/>
+                <outlet property="instructionLabelTopConstraint" destination="W2x-jH-U7W" id="L8b-Hc-RGF"/>
+                <outlet property="mapView" destination="i0t-jS-Dfv" id="yFw-9E-qaS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" interfaceStyle="light" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="i0t-jS-Dfv">
+                    <rect key="frame" x="0.0" y="56" width="414" height="786"/>
+                </mapView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press and hold to set desired location of your game!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g53-WU-fIc">
+                    <rect key="frame" x="43" y="76" width="328" height="72"/>
+                    <color key="backgroundColor" red="0.84843538366970905" green="0.844336662009469" blue="0.85253410532994922" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="avm-Ps-avd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guA-mB-Med">
+                    <rect key="frame" x="20" y="748" width="374" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="oGM-q3-sKg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Create Game">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="createGamePressed:" destination="-1" eventType="touchUpInside" id="gkj-hf-BF7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="guA-mB-Med" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="4d4-gQ-1JW"/>
+                <constraint firstItem="guA-mB-Med" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="F1n-AS-NOr"/>
+                <constraint firstItem="i0t-jS-Dfv" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="M0d-HR-YDG"/>
+                <constraint firstItem="g53-WU-fIc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="W2x-jH-U7W"/>
+                <constraint firstAttribute="bottom" secondItem="i0t-jS-Dfv" secondAttribute="bottom" id="dik-kK-ooK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="guA-mB-Med" secondAttribute="trailing" constant="20" id="gR9-td-CX7"/>
+                <constraint firstItem="i0t-jS-Dfv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="koQ-EE-KrA"/>
+                <constraint firstItem="g53-WU-fIc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="43" id="miK-D0-htC"/>
+                <constraint firstItem="i0t-jS-Dfv" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="wV7-4w-rZY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="g53-WU-fIc" secondAttribute="trailing" constant="43" id="zUy-aJ-zH7"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+            <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="63.768115942028992" y="70.982142857142847"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,891 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607C2C33E2110B0E90D515BD /* Pods_SquadUp_v4_SquadUp_v4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4733D16161A69EA3D89DCD95 /* Pods_SquadUp_v4_SquadUp_v4UITests.framework */; };
+		B5121548254FAD1300DD3F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5121547254FAD1300DD3F91 /* AppDelegate.swift */; };
+		B5121551254FAD1700DD3F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5121550254FAD1700DD3F91 /* Assets.xcassets */; };
+		B5121554254FAD1700DD3F91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5121552254FAD1700DD3F91 /* LaunchScreen.storyboard */; };
+		B512155F254FAD1700DD3F91 /* SquadUp_v4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B512155E254FAD1700DD3F91 /* SquadUp_v4Tests.swift */; };
+		B512156A254FAD1700DD3F91 /* SquadUp_v4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5121569254FAD1700DD3F91 /* SquadUp_v4UITests.swift */; };
+		B51215D02553557A00DD3F91 /* GameMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51215CE2553557900DD3F91 /* GameMapViewController.swift */; };
+		B51215D12553557A00DD3F91 /* GameMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51215CF2553557900DD3F91 /* GameMapViewController.xib */; };
+		B51AA71E2559A71600135824 /* CustomLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51AA71D2559A71600135824 /* CustomLoginViewController.swift */; };
+		B51AA723255A161F00135824 /* CustomLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51AA722255A161F00135824 /* CustomLoginViewController.xib */; };
+		B51BAA95256CD20700C1D058 /* displayGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51BAA93256CD20700C1D058 /* displayGameViewController.swift */; };
+		B51BAA96256CD20700C1D058 /* displayGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51BAA94256CD20700C1D058 /* displayGameViewController.xib */; };
+		B5451B322553AB9700368D9E /* FirstGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5451B302553AB9700368D9E /* FirstGameViewController.swift */; };
+		B5451B332553AB9700368D9E /* FirstGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5451B312553AB9700368D9E /* FirstGameViewController.xib */; };
+		B55ECC962555F522006BFEE8 /* Game+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA54D2555F24F0013551E /* Game+CoreDataProperties.swift */; };
+		B55ECC9D2555F532006BFEE8 /* Game+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA54C2555F24F0013551E /* Game+CoreDataClass.swift */; };
+		B55ECCA92555FDB6006BFEE8 /* gamePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55ECCA82555FDB6006BFEE8 /* gamePin.swift */; };
+		B55ECCB125560584006BFEE8 /* SquadUp-v4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B56DA5462555F1290013551E /* SquadUp-v4.xcdatamodeld */; };
+		B55ECCB725572E19006BFEE8 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55ECCB625572E18006BFEE8 /* GameView.swift */; };
+		B55ECD0F25577655006BFEE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B55ECD0E25577655006BFEE8 /* MapKit.framework */; };
+		B55ECD3F25577D63006BFEE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B55ECD3E25577D62006BFEE8 /* GoogleService-Info.plist */; };
+		B56DA4FC2554B1C10013551E /* sportsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA4FA2554B1C10013551E /* sportsCell.swift */; };
+		B56DA4FD2554B1C10013551E /* sportsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56DA4FB2554B1C10013551E /* sportsCell.xib */; };
+		B56DA5062554B7D40013551E /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA5052554B7D40013551E /* UIColor+Extension.swift */; };
+		B56DA5162554E9510013551E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA5152554E9510013551E /* UIImage+Extension.swift */; };
+		B56DA51B2554EAA60013551E /* ImageViewWithGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA51A2554EAA60013551E /* ImageViewWithGradient.swift */; };
+		B56DA52E2554FB5D0013551E /* SecondGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA52C2554FB5D0013551E /* SecondGameViewController.swift */; };
+		B56DA52F2554FB5D0013551E /* SecondGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56DA52D2554FB5D0013551E /* SecondGameViewController.xib */; };
+		B56DA53B255510C20013551E /* ThirdGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56DA539255510C20013551E /* ThirdGameViewController.swift */; };
+		B56DA53C255510C20013551E /* ThirdGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56DA53A255510C20013551E /* ThirdGameViewController.xib */; };
+		D5144B535880D4945736ACA4 /* Pods_SquadUp_v4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EB3D9162742FEAD64A7815 /* Pods_SquadUp_v4Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B512155B254FAD1700DD3F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B512153C254FAD1300DD3F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5121543254FAD1300DD3F91;
+			remoteInfo = "SquadUp-v4";
+		};
+		B5121566254FAD1700DD3F91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B512153C254FAD1300DD3F91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5121543254FAD1300DD3F91;
+			remoteInfo = "SquadUp-v4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4265DA2F0982F1DA279D7C27 /* Pods-SquadUp-v4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4.release.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4/Pods-SquadUp-v4.release.xcconfig"; sourceTree = "<group>"; };
+		4733D16161A69EA3D89DCD95 /* Pods_SquadUp_v4_SquadUp_v4UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquadUp_v4_SquadUp_v4UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6414813033E117188F1BA83B /* Pods_SquadUp_v4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquadUp_v4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5121544254FAD1300DD3F91 /* SquadUp-v4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SquadUp-v4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5121547254FAD1300DD3F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5121550254FAD1700DD3F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5121553254FAD1700DD3F91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5121555254FAD1700DD3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B512155A254FAD1700DD3F91 /* SquadUp-v4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SquadUp-v4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B512155E254FAD1700DD3F91 /* SquadUp_v4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadUp_v4Tests.swift; sourceTree = "<group>"; };
+		B5121560254FAD1700DD3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5121565254FAD1700DD3F91 /* SquadUp-v4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SquadUp-v4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5121569254FAD1700DD3F91 /* SquadUp_v4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadUp_v4UITests.swift; sourceTree = "<group>"; };
+		B512156B254FAD1700DD3F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B51215CE2553557900DD3F91 /* GameMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapViewController.swift; sourceTree = "<group>"; };
+		B51215CF2553557900DD3F91 /* GameMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameMapViewController.xib; sourceTree = "<group>"; };
+		B51AA71D2559A71600135824 /* CustomLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoginViewController.swift; sourceTree = "<group>"; };
+		B51AA722255A161F00135824 /* CustomLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomLoginViewController.xib; sourceTree = "<group>"; };
+		B51BAA93256CD20700C1D058 /* displayGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayGameViewController.swift; sourceTree = "<group>"; };
+		B51BAA94256CD20700C1D058 /* displayGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = displayGameViewController.xib; sourceTree = "<group>"; };
+		B5451B302553AB9700368D9E /* FirstGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGameViewController.swift; sourceTree = "<group>"; };
+		B5451B312553AB9700368D9E /* FirstGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstGameViewController.xib; sourceTree = "<group>"; };
+		B55ECCA82555FDB6006BFEE8 /* gamePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePin.swift; sourceTree = "<group>"; };
+		B55ECCB625572E18006BFEE8 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		B55ECD03255775BD006BFEE8 /* ChatSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ChatSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55ECD0E25577655006BFEE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B55ECD3E25577D62006BFEE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B56DA4FA2554B1C10013551E /* sportsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sportsCell.swift; sourceTree = "<group>"; };
+		B56DA4FB2554B1C10013551E /* sportsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = sportsCell.xib; sourceTree = "<group>"; };
+		B56DA5052554B7D40013551E /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B56DA5152554E9510013551E /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B56DA51A2554EAA60013551E /* ImageViewWithGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithGradient.swift; sourceTree = "<group>"; };
+		B56DA52C2554FB5D0013551E /* SecondGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondGameViewController.swift; sourceTree = "<group>"; };
+		B56DA52D2554FB5D0013551E /* SecondGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondGameViewController.xib; sourceTree = "<group>"; };
+		B56DA539255510C20013551E /* ThirdGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdGameViewController.swift; sourceTree = "<group>"; };
+		B56DA53A255510C20013551E /* ThirdGameViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdGameViewController.xib; sourceTree = "<group>"; };
+		B56DA5472555F1290013551E /* SquadUp-v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "SquadUp-v4.xcdatamodel"; sourceTree = "<group>"; };
+		B56DA54C2555F24F0013551E /* Game+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B56DA54D2555F24F0013551E /* Game+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D1880C43AE0136210AC0650D /* Pods-SquadUp-v4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4.debug.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4/Pods-SquadUp-v4.debug.xcconfig"; sourceTree = "<group>"; };
+		D651C299941AF6600265CC0D /* Pods-SquadUp-v4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4Tests.release.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4Tests/Pods-SquadUp-v4Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E060FD0A1256716129FA1189 /* Pods-SquadUp-v4-SquadUp-v4UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4-SquadUp-v4UITests.debug.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4-SquadUp-v4UITests/Pods-SquadUp-v4-SquadUp-v4UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4EB3D9162742FEAD64A7815 /* Pods_SquadUp_v4Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SquadUp_v4Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F40709D27FE6A30128C38F72 /* Pods-SquadUp-v4Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4Tests.debug.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4Tests/Pods-SquadUp-v4Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF828052F19AE445D71A3C9C /* Pods-SquadUp-v4-SquadUp-v4UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquadUp-v4-SquadUp-v4UITests.release.xcconfig"; path = "Target Support Files/Pods-SquadUp-v4-SquadUp-v4UITests/Pods-SquadUp-v4-SquadUp-v4UITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5121541254FAD1300DD3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55ECD0F25577655006BFEE8 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121557254FAD1700DD3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5144B535880D4945736ACA4 /* Pods_SquadUp_v4Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121562254FAD1700DD3F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607C2C33E2110B0E90D515BD /* Pods_SquadUp_v4_SquadUp_v4UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		630CEC73B209964C78D21C03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1880C43AE0136210AC0650D /* Pods-SquadUp-v4.debug.xcconfig */,
+				4265DA2F0982F1DA279D7C27 /* Pods-SquadUp-v4.release.xcconfig */,
+				E060FD0A1256716129FA1189 /* Pods-SquadUp-v4-SquadUp-v4UITests.debug.xcconfig */,
+				FF828052F19AE445D71A3C9C /* Pods-SquadUp-v4-SquadUp-v4UITests.release.xcconfig */,
+				F40709D27FE6A30128C38F72 /* Pods-SquadUp-v4Tests.debug.xcconfig */,
+				D651C299941AF6600265CC0D /* Pods-SquadUp-v4Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B512153B254FAD1300DD3F91 = {
+			isa = PBXGroup;
+			children = (
+				B5121546254FAD1300DD3F91 /* SquadUp-v4 */,
+				B512155D254FAD1700DD3F91 /* SquadUp-v4Tests */,
+				B5121568254FAD1700DD3F91 /* SquadUp-v4UITests */,
+				B5121545254FAD1300DD3F91 /* Products */,
+				630CEC73B209964C78D21C03 /* Pods */,
+				E47761E196E303D44B6FAE41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5121545254FAD1300DD3F91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5121544254FAD1300DD3F91 /* SquadUp-v4.app */,
+				B512155A254FAD1700DD3F91 /* SquadUp-v4Tests.xctest */,
+				B5121565254FAD1700DD3F91 /* SquadUp-v4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5121546254FAD1300DD3F91 /* SquadUp-v4 */ = {
+			isa = PBXGroup;
+			children = (
+				B55ECD3E25577D62006BFEE8 /* GoogleService-Info.plist */,
+				B5121555254FAD1700DD3F91 /* Info.plist */,
+				B55ECCBE255763EA006BFEE8 /* Resources */,
+				B56DA5042554B7880013551E /* Extensions */,
+				B56DA4F92554B1A50013551E /* Models */,
+				B56DA4F42554AF150013551E /* ViewControllers */,
+			);
+			path = "SquadUp-v4";
+			sourceTree = "<group>";
+		};
+		B512155D254FAD1700DD3F91 /* SquadUp-v4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B512155E254FAD1700DD3F91 /* SquadUp_v4Tests.swift */,
+				B5121560254FAD1700DD3F91 /* Info.plist */,
+			);
+			path = "SquadUp-v4Tests";
+			sourceTree = "<group>";
+		};
+		B5121568254FAD1700DD3F91 /* SquadUp-v4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5121569254FAD1700DD3F91 /* SquadUp_v4UITests.swift */,
+				B512156B254FAD1700DD3F91 /* Info.plist */,
+			);
+			path = "SquadUp-v4UITests";
+			sourceTree = "<group>";
+		};
+		B55ECCBE255763EA006BFEE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5121547254FAD1300DD3F91 /* AppDelegate.swift */,
+				B5121550254FAD1700DD3F91 /* Assets.xcassets */,
+				B5121552254FAD1700DD3F91 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B56DA4F42554AF150013551E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B56DA4F52554AF2F0013551E /* Create Game */,
+				B51215CF2553557900DD3F91 /* GameMapViewController.xib */,
+				B51215CE2553557900DD3F91 /* GameMapViewController.swift */,
+				B51BAA93256CD20700C1D058 /* displayGameViewController.swift */,
+				B51BAA94256CD20700C1D058 /* displayGameViewController.xib */,
+				B51AA71D2559A71600135824 /* CustomLoginViewController.swift */,
+				B51AA722255A161F00135824 /* CustomLoginViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B56DA4F52554AF2F0013551E /* Create Game */ = {
+			isa = PBXGroup;
+			children = (
+				B5451B302553AB9700368D9E /* FirstGameViewController.swift */,
+				B5451B312553AB9700368D9E /* FirstGameViewController.xib */,
+				B56DA52C2554FB5D0013551E /* SecondGameViewController.swift */,
+				B56DA52D2554FB5D0013551E /* SecondGameViewController.xib */,
+				B56DA539255510C20013551E /* ThirdGameViewController.swift */,
+				B56DA53A255510C20013551E /* ThirdGameViewController.xib */,
+			);
+			path = "Create Game";
+			sourceTree = "<group>";
+		};
+		B56DA4F92554B1A50013551E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B56DA5452555F0C80013551E /* Data */,
+				B56DA4FA2554B1C10013551E /* sportsCell.swift */,
+				B56DA4FB2554B1C10013551E /* sportsCell.xib */,
+				B55ECCB625572E18006BFEE8 /* GameView.swift */,
+				B56DA51A2554EAA60013551E /* ImageViewWithGradient.swift */,
+				B55ECCA82555FDB6006BFEE8 /* gamePin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B56DA5042554B7880013551E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B56DA5052554B7D40013551E /* UIColor+Extension.swift */,
+				B56DA5152554E9510013551E /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B56DA5452555F0C80013551E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B56DA54C2555F24F0013551E /* Game+CoreDataClass.swift */,
+				B56DA54D2555F24F0013551E /* Game+CoreDataProperties.swift */,
+				B56DA5462555F1290013551E /* SquadUp-v4.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E47761E196E303D44B6FAE41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B55ECD0E25577655006BFEE8 /* MapKit.framework */,
+				B55ECD03255775BD006BFEE8 /* ChatSDK.framework */,
+				6414813033E117188F1BA83B /* Pods_SquadUp_v4.framework */,
+				4733D16161A69EA3D89DCD95 /* Pods_SquadUp_v4_SquadUp_v4UITests.framework */,
+				E4EB3D9162742FEAD64A7815 /* Pods_SquadUp_v4Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5121543254FAD1300DD3F91 /* SquadUp-v4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B512156E254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4" */;
+			buildPhases = (
+				1CA41B41913147AD2BFED441 /* [CP] Check Pods Manifest.lock */,
+				B5121540254FAD1300DD3F91 /* Sources */,
+				B5121541254FAD1300DD3F91 /* Frameworks */,
+				B5121542254FAD1300DD3F91 /* Resources */,
+				C592ED2BDE7879F72686A133 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SquadUp-v4";
+			productName = "SquadUp-v4";
+			productReference = B5121544254FAD1300DD3F91 /* SquadUp-v4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5121559254FAD1700DD3F91 /* SquadUp-v4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5121571254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4Tests" */;
+			buildPhases = (
+				FD686CF2BCDF30C7431870FF /* [CP] Check Pods Manifest.lock */,
+				B5121556254FAD1700DD3F91 /* Sources */,
+				B5121557254FAD1700DD3F91 /* Frameworks */,
+				B5121558254FAD1700DD3F91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B512155C254FAD1700DD3F91 /* PBXTargetDependency */,
+			);
+			name = "SquadUp-v4Tests";
+			productName = "SquadUp-v4Tests";
+			productReference = B512155A254FAD1700DD3F91 /* SquadUp-v4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5121564254FAD1700DD3F91 /* SquadUp-v4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5121574254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4UITests" */;
+			buildPhases = (
+				A44F85F83F25A9FBA2EA3B79 /* [CP] Check Pods Manifest.lock */,
+				B5121561254FAD1700DD3F91 /* Sources */,
+				B5121562254FAD1700DD3F91 /* Frameworks */,
+				B5121563254FAD1700DD3F91 /* Resources */,
+				C2738E5C667E20A525716113 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5121567254FAD1700DD3F91 /* PBXTargetDependency */,
+			);
+			name = "SquadUp-v4UITests";
+			productName = "SquadUp-v4UITests";
+			productReference = B5121565254FAD1700DD3F91 /* SquadUp-v4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B512153C254FAD1300DD3F91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B5121543254FAD1300DD3F91 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					B5121559254FAD1700DD3F91 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B5121543254FAD1300DD3F91;
+					};
+					B5121564254FAD1700DD3F91 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = B5121543254FAD1300DD3F91;
+					};
+				};
+			};
+			buildConfigurationList = B512153F254FAD1300DD3F91 /* Build configuration list for PBXProject "SquadUp-v4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B512153B254FAD1300DD3F91;
+			productRefGroup = B5121545254FAD1300DD3F91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5121543254FAD1300DD3F91 /* SquadUp-v4 */,
+				B5121559254FAD1700DD3F91 /* SquadUp-v4Tests */,
+				B5121564254FAD1700DD3F91 /* SquadUp-v4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5121542254FAD1300DD3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5121554254FAD1700DD3F91 /* LaunchScreen.storyboard in Resources */,
+				B56DA4FD2554B1C10013551E /* sportsCell.xib in Resources */,
+				B55ECD3F25577D63006BFEE8 /* GoogleService-Info.plist in Resources */,
+				B56DA52F2554FB5D0013551E /* SecondGameViewController.xib in Resources */,
+				B56DA53C255510C20013551E /* ThirdGameViewController.xib in Resources */,
+				B51BAA96256CD20700C1D058 /* displayGameViewController.xib in Resources */,
+				B5121551254FAD1700DD3F91 /* Assets.xcassets in Resources */,
+				B51AA723255A161F00135824 /* CustomLoginViewController.xib in Resources */,
+				B5451B332553AB9700368D9E /* FirstGameViewController.xib in Resources */,
+				B51215D12553557A00DD3F91 /* GameMapViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121558254FAD1700DD3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121563254FAD1700DD3F91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA41B41913147AD2BFED441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquadUp-v4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F85F83F25A9FBA2EA3B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquadUp-v4-SquadUp-v4UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2738E5C667E20A525716113 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4-SquadUp-v4UITests/Pods-SquadUp-v4-SquadUp-v4UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4-SquadUp-v4UITests/Pods-SquadUp-v4-SquadUp-v4UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4-SquadUp-v4UITests/Pods-SquadUp-v4-SquadUp-v4UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C592ED2BDE7879F72686A133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4/Pods-SquadUp-v4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4/Pods-SquadUp-v4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SquadUp-v4/Pods-SquadUp-v4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD686CF2BCDF30C7431870FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquadUp-v4Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5121540254FAD1300DD3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B55ECC9D2555F532006BFEE8 /* Game+CoreDataClass.swift in Sources */,
+				B55ECC962555F522006BFEE8 /* Game+CoreDataProperties.swift in Sources */,
+				B55ECCB125560584006BFEE8 /* SquadUp-v4.xcdatamodeld in Sources */,
+				B5451B322553AB9700368D9E /* FirstGameViewController.swift in Sources */,
+				B56DA53B255510C20013551E /* ThirdGameViewController.swift in Sources */,
+				B51215D02553557A00DD3F91 /* GameMapViewController.swift in Sources */,
+				B51AA71E2559A71600135824 /* CustomLoginViewController.swift in Sources */,
+				B55ECCB725572E19006BFEE8 /* GameView.swift in Sources */,
+				B56DA4FC2554B1C10013551E /* sportsCell.swift in Sources */,
+				B51BAA95256CD20700C1D058 /* displayGameViewController.swift in Sources */,
+				B56DA51B2554EAA60013551E /* ImageViewWithGradient.swift in Sources */,
+				B56DA5162554E9510013551E /* UIImage+Extension.swift in Sources */,
+				B55ECCA92555FDB6006BFEE8 /* gamePin.swift in Sources */,
+				B5121548254FAD1300DD3F91 /* AppDelegate.swift in Sources */,
+				B56DA52E2554FB5D0013551E /* SecondGameViewController.swift in Sources */,
+				B56DA5062554B7D40013551E /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121556254FAD1700DD3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512155F254FAD1700DD3F91 /* SquadUp_v4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5121561254FAD1700DD3F91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B512156A254FAD1700DD3F91 /* SquadUp_v4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B512155C254FAD1700DD3F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5121543254FAD1300DD3F91 /* SquadUp-v4 */;
+			targetProxy = B512155B254FAD1700DD3F91 /* PBXContainerItemProxy */;
+		};
+		B5121567254FAD1700DD3F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5121543254FAD1300DD3F91 /* SquadUp-v4 */;
+			targetProxy = B5121566254FAD1700DD3F91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5121552254FAD1700DD3F91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5121553254FAD1700DD3F91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B512156C254FAD1800DD3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B512156D254FAD1800DD3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B512156F254FAD1800DD3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1880C43AE0136210AC0650D /* Pods-SquadUp-v4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5121570254FAD1800DD3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4265DA2F0982F1DA279D7C27 /* Pods-SquadUp-v4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5121572254FAD1800DD3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F40709D27FE6A30128C38F72 /* Pods-SquadUp-v4Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquadUp-v4.app/SquadUp-v4";
+			};
+			name = Debug;
+		};
+		B5121573254FAD1800DD3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D651C299941AF6600265CC0D /* Pods-SquadUp-v4Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquadUp-v4.app/SquadUp-v4";
+			};
+			name = Release;
+		};
+		B5121575254FAD1800DD3F91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E060FD0A1256716129FA1189 /* Pods-SquadUp-v4-SquadUp-v4UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquadUp-v4";
+			};
+			name = Debug;
+		};
+		B5121576254FAD1800DD3F91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF828052F19AE445D71A3C9C /* Pods-SquadUp-v4-SquadUp-v4UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 245388U82V;
+				INFOPLIST_FILE = "SquadUp-v4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tommyalpert.SquadUp-v4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SquadUp-v4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B512153F254FAD1300DD3F91 /* Build configuration list for PBXProject "SquadUp-v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B512156C254FAD1800DD3F91 /* Debug */,
+				B512156D254FAD1800DD3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B512156E254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B512156F254FAD1800DD3F91 /* Debug */,
+				B5121570254FAD1800DD3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5121571254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5121572254FAD1800DD3F91 /* Debug */,
+				B5121573254FAD1800DD3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5121574254FAD1800DD3F91 /* Build configuration list for PBXNativeTarget "SquadUp-v4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5121575254FAD1800DD3F91 /* Debug */,
+				B5121576254FAD1800DD3F91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B56DA5462555F1290013551E /* SquadUp-v4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B56DA5472555F1290013551E /* SquadUp-v4.xcdatamodel */,
+			);
+			currentVersion = B56DA5472555F1290013551E /* SquadUp-v4.xcdatamodel */;
+			path = "SquadUp-v4.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B512153C254FAD1300DD3F91 /* Project object */;
+}
