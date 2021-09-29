@@ -12,7 +12,7 @@ SquadUp is a mobile app for connecting people who play pickup sports. Users can 
 <img src=https://github.com/talpert022/SquadUp/blob/main/Designs/ExplorePage.png width=300>
 <img src=https://github.com/talpert022/SquadUp/blob/main/Designs/HomePage.png width=295>
 <img src=https://github.com/talpert022/SquadUp/blob/main/Designs/QRCodeChat.png width=300>
-<img src=https://github.com/talpert022/SquadUp/blob/main/Designs/RevenuePage.png width=320>
+<img src=https://github.com/talpert022/SquadUp/blob/main/Designs/RevenuePage.png width=310>
 </p>
 
 
